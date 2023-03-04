@@ -1,0 +1,15 @@
+-runproperties: logback.configurationFile=${fileuri;${.}/logback.xml}
+
+-runfw: org.apache.felix.framework
+-runee: JavaSE-1.8
+
+-runrequires: \
+	bnd.identity;id='org.sample.component'
+
+-runbundles: \
+	org.sample.component;version='[1.0.0,1.0.1)',\
+	ch.qos.logback.classic;version='[1.2.0,1.2.1)',\
+	ch.qos.logback.core;version='[1.2.0,1.2.1)',\
+	org.apache.felix.scr;version='[2.1.0,2.1.1)',\
+	org.instancio.core;version='[2.10.1,2.10.2)',\
+	slf4j.api;version='[1.7.36,1.7.37)'
