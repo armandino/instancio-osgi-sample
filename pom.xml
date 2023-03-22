@@ -7,7 +7,7 @@
     <packaging>pom</packaging>
 
     <properties>
-        <version.instancio>2.10.1-SNAPSHOT</version.instancio>
+        <version.instancio>2.11.1-SNAPSHOT</version.instancio>
         <version.bnd.plugin>6.4.0</version.bnd.plugin>
     </properties>
 
